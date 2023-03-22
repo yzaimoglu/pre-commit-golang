@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-go mod tidy -v $@
+cd backend && go mod tidy -v $@
 if [ $? -ne 0 ]; then
   exit 2
 fi
