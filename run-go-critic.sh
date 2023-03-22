@@ -9,6 +9,7 @@ if ! command -v gocritic &> /dev/null ; then
 fi
 
 failed=false
+cd backend
 
 for file in "$@"; do
     # redirect stderr so that violations and summaries are properly interleaved.
