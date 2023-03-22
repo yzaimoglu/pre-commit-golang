@@ -1,13 +1,8 @@
 pre-commit-golang
 =================
-
-:rotating_light: Please see the project sunsetting announcement:
-[Issues/98](https://github.com/dnephin/pre-commit-golang/issues/98)
-:rotating_light:
-
-----
-
 golang hooks for http://pre-commit.com/
+
+This is a fork that is used for monorepos, where the go project is in the backend folder.
 
 ### Using these hooks
 
