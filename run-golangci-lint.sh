@@ -8,4 +8,4 @@ if ! command -v golangci-lint &> /dev/null ; then
     exit 1
 fi
 
-exec golangci-lint run "$@"
+exec cd backend && golangci-lint run "$@"
